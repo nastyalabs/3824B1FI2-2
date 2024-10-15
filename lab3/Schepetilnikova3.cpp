@@ -2,7 +2,7 @@
 #include<locale.h>
 #include<stdlib.h>
 #include<time.h>
-
+//my lab
 void main() {
 	setlocale(LC_ALL, "rus");
 	int n, bulls = 0, cows = 0, x, pl;
