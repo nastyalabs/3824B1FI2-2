@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 
 #define MAX_PRODUCTS 100
 
 typedef struct {
-    char barcode[5]; // 4 digits + '\0'
+    char barcode[5]; 
     char name[50];
     int price;
     int discount;
@@ -98,7 +99,7 @@ void generateReceipt() {
 
     int finalAmount = totalCost;
     printf("\nОбщая стоимость: %d руб.\nСкидка: %d руб.\nИтоговая сумма: %d руб.\n", totalCost, totalDiscount, finalAmount);
-    scannedCount = 0; // Reset scanned products after generating receipt
+    scannedCount = 0; 
 }
 
 void calculateTotalAmount() {
@@ -117,7 +118,9 @@ void calculateTotalAmount() {
 }
 
 int main() {
-    // Adding some sample products
+    setlocale(LC_ALL,"Rus");
+    
+
     addProduct("1234", "Хлеб", 30, 5);
     addProduct("5678", "Молоко", 50, 10);
     addProduct("9012", "Яблоки", 100, 15);
