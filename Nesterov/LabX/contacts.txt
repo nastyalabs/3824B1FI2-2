@@ -1,0 +1,11 @@
+Artamonov_Sergey_ _12345678_ _NNGU_Student
+Alforov_Misha_ _24212333_ _ _ 
+Ivanov_Ivan_ _79001234567_ivanov@example.com_LLC Romashka_Manager
+Kuznetsova_Olga_Pavlovna_79054441122_ _ _ 
+Nesterov_Daniel_ _79512341211_ _NNGU_Student
+Petrov_Alexandr_ _1111_ _ _ 
+Petrov_Alexey_ _22222_ _ _ 
+Petrov_Petr_ _79875634525_ _NNSU_ 
+Petrova_Marina_Vladimirovna_79219876543_petrova@example.ru_JSC Vasilyok_ 
+Sidorov_Alexey_ _79165552233_sidorov@company.com_QJSC Beriozka_ 
+Vodeneeva_Anastasia_ _79306662927_ _ _ 
